@@ -5,7 +5,7 @@
  * @returns {number}
  */
 function sum(m, n) {
-  let num = null;
-  num = m + n;
+  let result = null;
+  result = m + n;
   return result;
 }
