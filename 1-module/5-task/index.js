@@ -5,5 +5,9 @@
  * @returns {string}
  */
 function truncate(str, maxlength) {
-
+  if(str.length <= maxlength) {
+    return str;
+  }
+  let sizeForMaxlength = maxlength - 1;
+  return str.slice(0, sizeForMaxlength) + "…";
 }
